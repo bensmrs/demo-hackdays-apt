@@ -4,15 +4,15 @@ Architecture: amd64
 Maintainer: Benjamin Somers <benjamin.somers@resel.fr>
 Installed-Size: 1043
 Pre-Depends: debconf
-Depends: debconf (>= 0.5) | debconf-2.0, python3-boto3, python3-brotli, python3-bs4 (>= 4.13.4), python3-bs4 (<< 4.13.5~), python3-celery, python3-crdt, python3-django, python3-django-configurations, python3-django-cors-headers, python3-django-countries, python3-django-easy-thumbnails, python3-django-filters, python3-django-lasuite, python3-django-parler, python3-django-redis, python3-django-storages, python3-django-timezone-field, python3-django-treebeard, python3-djangorestframework, python3-djangorestframework-spectacular, python3-dockerflow, python3-factory-boy, python3-gunicorn, python3-jsonschema, python3-jwt, python3-lxml, python3-magic, python3-markdown, python3-mozilla-django-oidc, python3-nested-multipart-parser, python3-openai, python3-psycopg, python3-redis, python3-requests, python3-sentry-sdk, python3-whitenoise, python3:any, python3
+Depends: debconf (>= 0.5) | debconf-2.0, python3-boto3, python3-brotli, python3-bs4 (>= 4.13.4), python3-bs4 (<< 4.13.5~), python3-celery, python3-crdt, python3-django, python3-django-configurations, python3-django-cors-headers, python3-django-countries, python3-django-easy-thumbnails, python3-django-filters, python3-django-lasuite, python3-django-parler, python3-django-redis, python3-django-storages, python3-django-timezone-field, python3-django-treebeard, python3-djangorestframework, python3-djangorestframework-spectacular, python3-dockerflow, python3-factory-boy, python3-gunicorn, python3-jsonschema, python3-jwt, python3-lxml, python3-magic, python3-markdown, python3-mozilla-django-oidc, python3-nested-multipart-parser, python3-openai, python3-psycopg, python3-redis, python3-requests, python3-sentry-sdk, python3-whitenoise, python3:any, python3, python3-django-extensions, python3-django-drf-spectacular-sidecar
 Homepage: https://docs.numerique.gouv.fr/
 Priority: optional
 Section: utils
 Filename: pool/main/l/lasuite-docs/lasuite-docs_3.3.0-1_amd64.deb
-Size: 116188
-SHA256: 1d9ff9590aa2cb3c3918b852a8709419dc4ed7a6ea9d0fa0afa3f235898934ae
-SHA1: 966c3b2a2f34c350f95ae64c921de5e4abfbddb3
-MD5sum: 24ec3753ce265b23db8a40ba6e62128b
+Size: 116208
+SHA256: 05cf59f36cea1d8960b1d50b20f4cd8593e7a78afa56427901fe56a01d34eb93
+SHA1: c0738703606a542ec799db97a9844b9f456d2a32
+MD5sum: f735bcb860a06655e2ed8f8ece1bef8f
 Description: Collaborative note taking
  A collaborative note taking, wiki and documentation platform that scales. Built with Django and React. Opensource alternative to Notion or Outline.
 
