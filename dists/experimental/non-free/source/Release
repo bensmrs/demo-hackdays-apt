@@ -1,0 +1,6 @@
+Archive: experimental
+Component: non-free
+Origin: local
+Label: Local APT repository
+Architecture: source
+Description: Local APT repository

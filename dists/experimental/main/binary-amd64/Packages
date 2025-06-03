@@ -1,0 +1,316 @@
+Package: lasuite-docs
+Version: 3.3.0-1
+Architecture: amd64
+Maintainer: Benjamin Somers <benjamin.somers@resel.fr>
+Installed-Size: 1037
+Depends: python3-boto3, python3-brotli, python3-bs4 (>= 4.13.4), python3-bs4 (<< 4.13.5~), python3-celery, python3-crdt, python3-django, python3-django-configurations, python3-django-cors-headers, python3-django-countries, python3-django-easy-thumbnails, python3-django-filters, python3-django-lasuite, python3-django-parler, python3-django-redis, python3-django-storages, python3-django-timezone-field, python3-django-treebeard, python3-djangorestframework, python3-djangorestframework-spectacular, python3-dockerflow, python3-factory-boy, python3-gunicorn, python3-jsonschema, python3-jwt, python3-lxml, python3-magic, python3-markdown, python3-mozilla-django-oidc, python3-nested-multipart-parser, python3-openai, python3-psycopg, python3-redis, python3-requests, python3-sentry-sdk, python3-whitenoise, python3:any, python3
+Homepage: https://docs.numerique.gouv.fr/
+Priority: optional
+Section: utils
+Filename: pool/main/l/lasuite-docs/lasuite-docs_3.3.0-1_amd64.deb
+Size: 114664
+SHA256: 59e5eb21f10e5751f6c0737890e1d0afde3f82a9e6690eecec1c0cbc978244f6
+SHA1: e7d67e0072b9a3a7844847bf61d0e3180559631b
+MD5sum: 6c8830f96e9510de9f421a452d831c85
+Description: Collaborative note taking
+ A collaborative note taking, wiki and documentation platform that scales. Built with Django and React. Opensource alternative to Notion or Outline.
+
+Package: librust-smallstr-dev
+Source: rust-smallstr
+Version: 0.3.0-1
+Architecture: amd64
+Maintainer: Benjamin Somers <benjamin.somers@resel.fr>
+Installed-Size: 68
+Depends: librust-smallvec-1+default-dev (>= 1.1-~~)
+Suggests: librust-smallstr+serde-dev (= 0.3.0-1), librust-smallstr+std-dev (= 0.3.0-1), librust-smallstr+union-dev (= 0.3.0-1)
+Provides: librust-smallstr+default-dev (= 0.3.0-1), librust-smallstr+ffi-dev (= 0.3.0-1), librust-smallstr-0+default-dev (= 0.3.0-1), librust-smallstr-0+ffi-dev (= 0.3.0-1), librust-smallstr-0-dev (= 0.3.0-1), librust-smallstr-0.3+default-dev (= 0.3.0-1), librust-smallstr-0.3+ffi-dev (= 0.3.0-1), librust-smallstr-0.3-dev (= 0.3.0-1), librust-smallstr-0.3.0+default-dev (= 0.3.0-1), librust-smallstr-0.3.0+ffi-dev (= 0.3.0-1), librust-smallstr-0.3.0-dev (= 0.3.0-1)
+Multi-Arch: same
+Homepage: https://github.com/murarth/smallstr
+Priority: optional
+Section: rust
+Filename: pool/main/r/rust-smallstr/librust-smallstr-dev_0.3.0-1_amd64.deb
+Size: 13528
+SHA256: ea0a6ca299a651b73ac0ebebfcf8f8f7b4063f5192c81a8216e5515e33a8c1fd
+SHA1: 01d28089ab8b49892f8808e0519a30b22d0fbaeb
+MD5sum: 593e16ea49b5abc79c8764ae4bf7b0c3
+Description: String-like container based on smallvec - Rust source code
+ Source code for Debianized Rust crate "smallstr"
+
+Package: librust-yrs-dev
+Source: rust-yrs
+Version: 0.23.4-1
+Architecture: amd64
+Maintainer: Benjamin Somers <benjamin.somers@resel.fr>
+Installed-Size: 1391
+Depends: librust-arc-swap-dev, librust-async-lock-dev, librust-async-trait-dev, librust-dashmap-dev, librust-fastrand-dev, librust-serde-dev, librust-serde-json-dev, librust-smallstr-dev, librust-smallvec-dev, librust-thiserror-dev
+Provides: librust-yrs+default-dev (= 0.23.4-1), librust-yrs+sync-dev (= 0.23.4-1), librust-yrs+weak-dev (= 0.23.4-1), librust-yrs-0+default-dev (= 0.23.4-1), librust-yrs-0+sync-dev (= 0.23.4-1), librust-yrs-0+weak-dev (= 0.23.4-1), librust-yrs-0-dev (= 0.23.4-1), librust-yrs-0.23+default-dev (= 0.23.4-1), librust-yrs-0.23+sync-dev (= 0.23.4-1), librust-yrs-0.23+weak-dev (= 0.23.4-1), librust-yrs-0.23-dev (= 0.23.4-1), librust-yrs-0.23.4+default-dev (= 0.23.4-1), librust-yrs-0.23.4+sync-dev (= 0.23.4-1), librust-yrs-0.23.4+weak-dev (= 0.23.4-1), librust-yrs-0.23.4-dev (= 0.23.4-1)
+Multi-Arch: same
+Homepage: https://github.com/y-crdt/y-crdt/
+Priority: optional
+Section: rust
+Filename: pool/main/r/rust-yrs/librust-yrs-dev_0.23.4-1_amd64.deb
+Size: 193384
+SHA256: 23b456d7702327166c06b626ffda26619cf3d8568fcc8ff562753a6f78250e87
+SHA1: a14b6fcc244ea90ab5b92467a2cdb319f1bdf5fc
+MD5sum: 53c9ce5834bfa5c1d0b4024b49ac2cda
+Description: High performance implementation of the Yjs CRDT - Rust source code
+ Source code for Debianized Rust crate "yrs"
+
+Package: python3-crdt
+Source: python-crdt
+Version: 0.10.8-1
+Architecture: amd64
+Maintainer: Benjamin Somers <benjamin.somers@resel.fr>
+Installed-Size: 1946
+Depends: python3 (<< 3.14), python3 (>= 3.13~), python3-anyio, python3:any, libc6 (>= 2.34), libgcc-s1 (>= 4.2)
+Homepage: https://y-crdt.github.io/pycrdt/
+Priority: optional
+Section: utils
+Filename: pool/main/p/python-crdt/python3-crdt_0.10.8-1_amd64.deb
+Size: 580656
+SHA256: 3e25f12b03a6c94022a0a84314534a2cdc36c643e3902ad9090f8eaba4081f50
+SHA1: b9b1964904239a454238f1e49b8010f22215a462
+MD5sum: 63aa39ec57950242c0905c614f569b36
+Description: CRDTs based on Yrs
+ A Python CRDT library that provides bindings for Yrs, the Rust port of the
+ Yjs framework
+
+Package: python3-django-configurations
+Source: python-django-configurations
+Version: 2.5.1-1
+Architecture: amd64
+Maintainer: Benjamin Somers <benjamin.somers@resel.fr>
+Installed-Size: 75
+Depends: python3-django, python3:any, python3
+Homepage: https://django-configurations.readthedocs.io/
+Priority: optional
+Section: utils
+Filename: pool/main/p/python-django-configurations/python3-django-configurations_2.5.1-1_amd64.deb
+Size: 17428
+SHA256: d30d8423d71c1bd44d28c4713f77099d1ab323bdf7b378817410be9730cc7274
+SHA1: 09bd3b7e21a84dd1016c96f3fb16380f98b6c923
+MD5sum: 2b7bedf86c94a97713cd8c293e220aef
+Description: Django project organization helper
+ A helper for organizing Django project settings by relying on well established
+ programming patterns
+
+Package: python3-django-drf-spectacular-sidecar
+Source: python-django-drf-spectacular-sidecar
+Version: 2025.6.1-1
+Architecture: amd64
+Maintainer: Benjamin Somers <benjamin.somers@resel.fr>
+Installed-Size: 8367
+Depends: python3-django, python3:any
+Homepage: https://django-configurations.readthedocs.io/
+Priority: optional
+Section: utils
+Filename: pool/main/p/python-django-drf-spectacular-sidecar/python3-django-drf-spectacular-sidecar_2025.6.1-1_amd64.deb
+Size: 1864004
+SHA256: 43fba25a52d8c4a6a8dfcd67e86e5a47663f755e2c29dbcb65450b9bbda19610
+SHA1: db632b1890da8e03dac427d5ba2aac6c2122f485
+MD5sum: 23e87b59d6e84c073d5b300e81064b83
+Description: Serve self-contained Swagger UI and Redoc with Django
+ Serve self-contained distribution builds of Swagger UI and Redoc with Django
+
+Package: python3-django-easy-thumbnails
+Source: python-django-easy-thumbnails
+Version: 2.10.0-1
+Architecture: amd64
+Maintainer: Benjamin Somers <benjamin.somers@resel.fr>
+Installed-Size: 227
+Depends: python3-django, python3-pil, python3:any
+Homepage: https://easy-thumbnails.readthedocs.io/
+Priority: optional
+Section: utils
+Filename: pool/main/p/python-django-easy-thumbnails/python3-django-easy-thumbnails_2.10.0-1_amd64.deb
+Size: 50052
+SHA256: a95671e258b6e0cc2c90ee7cbcd595cf43d22fbae0d3526b68751ae3bd461c94
+SHA1: d36d83f5f4b35e9774d63079d8900f26e5a6d0fc
+MD5sum: de6c3c0ca9ee8facb85beb24ba406d05
+Description: Easy thumbnails for Django
+ A thumbnailing application for Django which is easy to use and customize
+
+Package: python3-django-lasuite
+Source: python-django-lasuite
+Version: 0.0.9-1
+Architecture: amd64
+Maintainer: Benjamin Somers <benjamin.somers@resel.fr>
+Installed-Size: 114
+Depends: python3-django, python3-djangorestframework, python3-joserfc, python3-jwt, python3-mozilla-django-oidc, python3-requests, python3-requests-toolbelt, python3:any, python3
+Homepage: https://github.com/suitenumerique/django-lasuite
+Priority: optional
+Section: utils
+Filename: pool/main/p/python-django-lasuite/python3-django-lasuite_0.0.9-1_amd64.deb
+Size: 21332
+SHA256: e7b24fdbe848f874f049b10228de6e2c58ba9500638221a17adfe0bd4cf5cbb2
+SHA1: 478acffee6649003192b39abbdabb43e36cb7dc0
+MD5sum: d768e4b4090178ab1982bbe812147c2e
+Description: Common "La Suite" Django library
+ Common library for "La Suite" Django projects and Proconnected Django projects
+
+Package: python3-dockerflow
+Source: python-dockerflow
+Version: 2024.04.2-1
+Architecture: amd64
+Maintainer: Benjamin Somers <benjamin.somers@resel.fr>
+Installed-Size: 911
+Depends: python3:any, python3-django
+Homepage: https://python-dockerflow.readthedocs.io/
+Priority: optional
+Section: utils
+Filename: pool/main/p/python-dockerflow/python3-dockerflow_2024.04.2-1_amd64.deb
+Size: 69312
+SHA256: df9a0554650d2e4114e1ff800fa609bc0dd863ed2a0d73cb2295b7279dc98a15
+SHA1: 92a9c72d317d7994bfb452ea5f5b1a42ab317145
+MD5sum: c3be8fb8ea37e4961b186129d91815aa
+Description: Mozilla Dockerflow helpers
+ A Python package to implement tools and helpers for Mozilla Dockerflow
+
+Package: python3-flask-redis
+Source: python-flask-redis
+Version: 0.4.0-1
+Architecture: amd64
+Maintainer: Benjamin Somers <benjamin.somers@resel.fr>
+Installed-Size: 35
+Depends: python3-flask (>= 0.8), python3-redis, python3:any
+Homepage: https://github.com/underyx/flask-redis
+Priority: optional
+Section: utils
+Filename: pool/main/p/python-flask-redis/python3-flask-redis_0.4.0-1_amd64.deb
+Size: 9108
+SHA256: 967dffdf8733211986c2c797f3e119c8f4fc2687236ee481ab770b756162aacc
+SHA1: d17aebb312fcf8e6a4d53b54b39aa7957b0de1ff
+MD5sum: b0df4c114935dcbade1ecccac16ec60e
+Description: Flask extension for Redis
+ A Flask extension for using Redis
+
+Package: python3-html5tagger
+Source: python-html5tagger
+Version: 1.3.0-1
+Architecture: amd64
+Maintainer: Benjamin Somers <benjamin.somers@resel.fr>
+Installed-Size: 43
+Depends: python3:any
+Homepage: https://sanic.dev/
+Priority: optional
+Section: utils
+Filename: pool/main/p/python-html5tagger/python3-html5tagger_1.3.0-1_amd64.deb
+Size: 10420
+SHA256: 7e8c9d6468f65fc39be2cf4b92978c9adcca38bcd22a2b9003cd78d3d8aea0c8
+SHA1: e63c7ca9d6cbbbc3c313f519747592d21768d334
+MD5sum: 06326757011571d1d4ae4a2495ba56e6
+Description: Create HTML documents from Python
+ html5tagger provides a simplified HTML5 syntax allowing developers to create
+ entire document templates using only Python
+
+Package: python3-mozilla-django-oidc
+Source: python-mozilla-django-oidc
+Version: 4.0.1-1
+Architecture: amd64
+Maintainer: Benjamin Somers <benjamin.somers@resel.fr>
+Installed-Size: 88
+Depends: python3-cryptography, python3-django, python3-josepy, python3-requests, python3:any, python3
+Homepage: https://mozilla-django-oidc.readthedocs.io/
+Priority: optional
+Section: utils
+Filename: pool/main/p/python-mozilla-django-oidc/python3-mozilla-django-oidc_4.0.1-1_amd64.deb
+Size: 22760
+SHA256: 6d4eb081ab9b66bc915d70476056654282748a8db503cc377849d871a0436fd5
+SHA1: 3ce7b01ae760c04823d753ffc0f99d5cbdcfeb46
+MD5sum: fa6839559b3f6ecc1f968ec791277002
+Description: Django OpenID Connect library
+ A lightweight authentication and access management library for integration
+ with OpenID Connect enabled authentication services
+
+Package: python3-nested-multipart-parser
+Source: python-nested-multipart-parser
+Version: 1.5.0-1
+Architecture: amd64
+Maintainer: Benjamin Somers <benjamin.somers@resel.fr>
+Installed-Size: 40
+Depends: python3:any
+Homepage: https://sanic.dev/
+Priority: optional
+Section: utils
+Filename: pool/main/p/python-nested-multipart-parser/python3-nested-multipart-parser_1.5.0-1_amd64.deb
+Size: 7564
+SHA256: 9c21c2f20631068a08eaef2f1d88a1a7096e304d503eff8ac706d7a14334fd26
+SHA1: a56011d98dba154c0d7096245c07e11e3691f445
+MD5sum: 67b51a6666318714fd04d86878852cfb
+Description: Parser for nested data for 'multipart/form'
+ A parser for nested data for 'multipart/form' usable in any Python project
+
+Package: python3-sanic
+Source: python-sanic
+Version: 25.3.0-1
+Architecture: amd64
+Maintainer: Benjamin Somers <benjamin.somers@resel.fr>
+Installed-Size: 943
+Depends: python3-aiofiles, python3-html5tagger, python3-httptools, python3-multidict, python3-pkg-resources, python3-sanic-routing, python3-tracerite, python3-typing-extensions, python3-websockets, python3:any
+Homepage: https://sanic.dev/
+Priority: optional
+Section: utils
+Filename: pool/main/p/python-sanic/python3-sanic_25.3.0-1_amd64.deb
+Size: 161264
+SHA256: 79afb10de13dcbc736fc03f4f6c4ba56260e96de1a68fed03a0fced025f110dc
+SHA1: 114588126f8425b3dec7c8b22b1fd61dc2788e11
+MD5sum: 6dc4bb65c584c6853a3079cc03fb002a
+Description: Fast Python web framework
+ A web server and web framework that's written to go fast
+
+Package: python3-sanic-routing
+Source: python-sanic-routing
+Version: 23.12.0-1
+Architecture: amd64
+Maintainer: Benjamin Somers <benjamin.somers@resel.fr>
+Installed-Size: 99
+Depends: python3:any
+Homepage: https://sanic.dev/
+Priority: optional
+Section: utils
+Filename: pool/main/p/python-sanic-routing/python3-sanic-routing_23.12.0-1_amd64.deb
+Size: 20312
+SHA256: 0e63a09d33c6b9a6648be47fa67b270eac2f4d68de8a5ba768ac92cc2ae45c52
+SHA1: 156bbe2fd6b9fb353d9ff007fd685261ca300930
+MD5sum: f6513ef9fc38b685c8ab485462a8a3ea
+Description: Sanic routing engine
+ Internal handler routing for Sanic beginning with v21.3
+
+Package: python3-sanic-testing
+Source: python-sanic-testing
+Version: 24.6.0-1
+Architecture: amd64
+Maintainer: Benjamin Somers <benjamin.somers@resel.fr>
+Installed-Size: 50
+Depends: python3-httpx, python3:any
+Homepage: https://sanic.dev/en/plugins/sanic-testing/getting-started.html
+Priority: optional
+Section: utils
+Filename: pool/main/p/python-sanic-testing/python3-sanic-testing_24.6.0-1_amd64.deb
+Size: 8876
+SHA256: 99fc2eebc08de2912a13a9dde96c0d9d8ea77abba0f5d28f4b22b3011b4b2672
+SHA1: d45302f5b3b73bc14eef630f5a9469febd49a348
+MD5sum: c03d32b97316b643a5a1c250c32ff2ad
+Description: Test clients for Sanic
+ Core testing utility and clients for testing Sanic applications
+
+Package: python3-tracerite
+Source: python-tracerite
+Version: 1.1.1-1
+Architecture: amd64
+Maintainer: Benjamin Somers <benjamin.somers@resel.fr>
+Installed-Size: 48
+Depends: python3-html5tagger, python3:any
+Homepage: https://sanic.dev/
+Priority: optional
+Section: utils
+Filename: pool/main/p/python-tracerite/python3-tracerite_1.1.1-1_amd64.deb
+Size: 11652
+SHA256: e87ca39ce5f25064bbaf65999d33da5f749b7f9065976a0867903151855d853f
+SHA1: a08b666b7bc378ef5a7a31e885c47208c6fcb5f1
+MD5sum: 6a9a4645ca4958167541d58e32127d44
+Description: Tracebacks for Humans
+ TraceRite produces scrollable tracebacks that concentrate on the relevant
+ details but also provide variable inspectors on each frame where it may be
+ relevant
+

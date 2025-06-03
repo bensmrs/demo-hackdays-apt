@@ -1,0 +1,6 @@
+Archive: experimental
+Component: main
+Origin: local
+Label: Local APT repository
+Architecture: amd64
+Description: Local APT repository
