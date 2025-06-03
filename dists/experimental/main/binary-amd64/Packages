@@ -2,17 +2,17 @@ Package: lasuite-docs
 Version: 3.3.0-1
 Architecture: amd64
 Maintainer: Benjamin Somers <benjamin.somers@resel.fr>
-Installed-Size: 1040
+Installed-Size: 1042
 Pre-Depends: debconf
 Depends: debconf (>= 0.5) | debconf-2.0, python3-boto3, python3-brotli, python3-bs4 (>= 4.13.4), python3-bs4 (<< 4.13.5~), python3-celery, python3-crdt, python3-django, python3-django-configurations, python3-django-cors-headers, python3-django-countries, python3-django-easy-thumbnails, python3-django-filters, python3-django-lasuite, python3-django-parler, python3-django-redis, python3-django-storages, python3-django-timezone-field, python3-django-treebeard, python3-djangorestframework, python3-djangorestframework-spectacular, python3-dockerflow, python3-factory-boy, python3-gunicorn, python3-jsonschema, python3-jwt, python3-lxml, python3-magic, python3-markdown, python3-mozilla-django-oidc, python3-nested-multipart-parser, python3-openai, python3-psycopg, python3-redis, python3-requests, python3-sentry-sdk, python3-whitenoise, python3:any, python3
 Homepage: https://docs.numerique.gouv.fr/
 Priority: optional
 Section: utils
 Filename: pool/main/l/lasuite-docs/lasuite-docs_3.3.0-1_amd64.deb
-Size: 115500
-SHA256: b0da859affecac188c8e755d88c6e1ea831ea4155101fe4a6842b574da76aa53
-SHA1: 6e2afa835b76ebf31c530258c1f6b8a95083bb93
-MD5sum: 3a56bc58b013e7cfee50ed4710fbc4bf
+Size: 116152
+SHA256: fd9da651839545e212e78961f97f174bae41671cbf21c1f33d74618e111f86ec
+SHA1: 5ce3a092dbc873ee8388782342371eeff2cd9eda
+MD5sum: d0f40ac6073c819a5d2a8ef4651496cb
 Description: Collaborative note taking
  A collaborative note taking, wiki and documentation platform that scales. Built with Django and React. Opensource alternative to Notion or Outline.
 
