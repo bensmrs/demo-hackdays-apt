@@ -9,10 +9,10 @@ Homepage: https://docs.numerique.gouv.fr/
 Priority: optional
 Section: utils
 Filename: pool/main/l/lasuite-docs/lasuite-docs_3.3.0-1_amd64.deb
-Size: 116152
-SHA256: fd9da651839545e212e78961f97f174bae41671cbf21c1f33d74618e111f86ec
-SHA1: 5ce3a092dbc873ee8388782342371eeff2cd9eda
-MD5sum: d0f40ac6073c819a5d2a8ef4651496cb
+Size: 116156
+SHA256: cd97eadeb9bd7777eb7e5c6bfd574d8fefaa726e941eb03fc604d11cb62d8ceb
+SHA1: a14b4e153481dc86ba3dbd18d2f9ffc2b62df431
+MD5sum: 2c1e20faec36435a961f36ee99b5f81e
 Description: Collaborative note taking
  A collaborative note taking, wiki and documentation platform that scales. Built with Django and React. Opensource alternative to Notion or Outline.
 
